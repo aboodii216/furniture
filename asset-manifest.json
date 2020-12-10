@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/aboodii216/furniture/static/css/main.4666eafa.chunk.css",
+    "main.js": "/aboodii216/furniture/static/js/main.0debd14c.chunk.js",
+    "main.js.map": "/aboodii216/furniture/static/js/main.0debd14c.chunk.js.map",
+    "runtime-main.js": "/aboodii216/furniture/static/js/runtime-main.1b5b167a.js",
+    "runtime-main.js.map": "/aboodii216/furniture/static/js/runtime-main.1b5b167a.js.map",
+    "static/css/2.33952032.chunk.css": "/aboodii216/furniture/static/css/2.33952032.chunk.css",
+    "static/js/2.d2f8fd83.chunk.js": "/aboodii216/furniture/static/js/2.d2f8fd83.chunk.js",
+    "static/js/2.d2f8fd83.chunk.js.map": "/aboodii216/furniture/static/js/2.d2f8fd83.chunk.js.map",
+    "static/js/3.9fcbb7db.chunk.js": "/aboodii216/furniture/static/js/3.9fcbb7db.chunk.js",
+    "static/js/3.9fcbb7db.chunk.js.map": "/aboodii216/furniture/static/js/3.9fcbb7db.chunk.js.map",
+    "index.html": "/aboodii216/furniture/index.html",
+    "static/css/2.33952032.chunk.css.map": "/aboodii216/furniture/static/css/2.33952032.chunk.css.map",
+    "static/css/main.4666eafa.chunk.css.map": "/aboodii216/furniture/static/css/main.4666eafa.chunk.css.map",
+    "static/js/2.d2f8fd83.chunk.js.LICENSE.txt": "/aboodii216/furniture/static/js/2.d2f8fd83.chunk.js.LICENSE.txt",
+    "static/media/01.30206914.jpg": "/aboodii216/furniture/static/media/01.30206914.jpg",
+    "static/media/01.9192d043.png": "/aboodii216/furniture/static/media/01.9192d043.png",
+    "static/media/01.ede631e5.jpg": "/aboodii216/furniture/static/media/01.ede631e5.jpg",
+    "static/media/02.2e8c25bf.jpg": "/aboodii216/furniture/static/media/02.2e8c25bf.jpg",
+    "static/media/02.580d9d83.jpg": "/aboodii216/furniture/static/media/02.580d9d83.jpg",
+    "static/media/03.297b45d9.jpg": "/aboodii216/furniture/static/media/03.297b45d9.jpg",
+    "static/media/03.6c409652.jpg": "/aboodii216/furniture/static/media/03.6c409652.jpg",
+    "static/media/04.29303eb2.jpg": "/aboodii216/furniture/static/media/04.29303eb2.jpg",
+    "static/media/offer.13722337.png": "/aboodii216/furniture/static/media/offer.13722337.png",
+    "static/media/slider-2.0e4f261f.jpg": "/aboodii216/furniture/static/media/slider-2.0e4f261f.jpg",
+    "static/media/slider-3.cbbe37ca.jpg": "/aboodii216/furniture/static/media/slider-3.cbbe37ca.jpg",
+    "static/media/slider-4.07c3139c.jpg": "/aboodii216/furniture/static/media/slider-4.07c3139c.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b5b167a.js",
+    "static/css/2.33952032.chunk.css",
+    "static/js/2.d2f8fd83.chunk.js",
+    "static/css/main.4666eafa.chunk.css",
+    "static/js/main.0debd14c.chunk.js"
+  ]
+}
