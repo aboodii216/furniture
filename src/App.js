@@ -41,38 +41,38 @@ function App() {
     }
   }
   return (
-    <Router>
-      <Link to="/furniture">
+    // <Router>
+    //   <Link to="/furniture">
         <div className="App text-capitalize" style={theme}> 
-        <TopMenuProvier>
-          <TopNav />
-          <SideMenuFromTop />
-        </TopMenuProvier>
-        <MenuProvier>
-          <Header />
-          <SideMenu />
-        </MenuProvier>      
-        <About />
-        <Gallery />
-        <Special />
-        <Tetimonials />
-        <Brands />
-        <Contact />
-        <Footer />
-        <ScrollToTop smooth top color={themeStyle.themee === "light" ?  "white": "#1F1F25"} style={{
-          width:"50px",
-          height: '50px',
-          borderRadius: '50%',
-          background : themeStyle.themee === "light" ?"#1F1F25": "white"
-        }} />
-      </div>
-      </Link>
-      <Switch>
-        <Route path="/furniture">
-          <App />
-        </Route>
-      </Switch>
-    </Router>
+          <TopMenuProvier>
+            <TopNav />
+            <SideMenuFromTop />
+          </TopMenuProvier>
+          <MenuProvier>
+            <Header />
+            <SideMenu />
+          </MenuProvier>      
+          <About />
+          <Gallery />
+          <Special />
+          <Tetimonials />
+          <Brands />
+          <Contact />
+          <Footer />
+          <ScrollToTop smooth top color={themeStyle.themee === "light" ?  "white": "#1F1F25"} style={{
+            width:"50px",
+            height: '50px',
+            borderRadius: '50%',
+            background : themeStyle.themee === "light" ?"#1F1F25": "white"
+          }} />
+        </div>
+    //   </Link>
+    //   <Switch>
+    //     <Route path="/furniture">
+    //       <App />
+    //     </Route>
+    //   </Switch>
+    // </Router>
   );
 }
 
