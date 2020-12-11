@@ -1,0 +1,39 @@
+.menu{
+    margin-top: 240px;
+    cursor: pointer;
+    span{
+        display: block;
+        height: 3px;
+        background-color: #FFF;
+        transition: .3s;
+    }
+    .one{
+        width: 100%;
+    }
+    .two{
+        width: 70%;
+    }
+    &:hover{
+        span{
+            
+        }
+        .one{
+            animation: toggle .8s infinite ease-in-out;
+        }
+        .two{
+            animation: toggle .8s infinite ease-in-out .16s;
+        }
+    }
+}
+@keyframes toggle{
+    100%{
+        width: 0%
+    }
+    50%{
+        width: 50%;
+        background-color: rgb(128, 128, 128);
+    }
+    100%{
+        width: 100%;
+    }
+}

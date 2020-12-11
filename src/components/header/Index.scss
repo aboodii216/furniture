@@ -1,0 +1,23 @@
+
+
+.carousel{
+    .item{
+        height: 100%;
+        @media (max-width: 1200px) {
+            margin-top: 76px;
+        }
+    }
+}
+.right-header{
+    .icons{
+        text-align: center;
+        i{
+            padding: 10px;
+            display: inline-block;
+            cursor: pointer;
+        }
+    }
+    @media (max-width: 1200px) {
+        display:none !important;
+    }
+}

@@ -1,0 +1,28 @@
+.about{
+    .big-letter{
+        z-index: 0;
+    }
+    .desc{
+        color: #d4d4d4;
+        letter-spacing: 1px;  
+        font-weight: bold;  
+    }
+    .countUp{
+        .box{
+            span{
+
+            }
+            .num{
+                font-size: 100px;
+            }
+            @media (max-width: 576px){
+                .num{
+                    font-size: 65px;
+                }
+                .name{
+                    font-size: .9rem
+                }
+            }
+        }
+    }
+}

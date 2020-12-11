@@ -1,0 +1,49 @@
+.side-menu{
+    position: fixed;
+    padding-left: 128px;
+    top: 0;
+    width: 60%;
+    height: 100vh;
+    background-color: rgba(3,3,3,.6);
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: #999;
+    transition: .6s;
+    .close-icon{
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        color: #9c9c9c;
+        font-weight: bold;
+        transition: .3s;
+        cursor: pointer;
+        &:hover{
+            color: #FFF;
+        }
+    }
+    li{
+        a{
+            cursor: pointer;
+            transition: .3s;
+            color: #9c9c9c;
+            text-decoration: none;
+            span{
+                color: #9c9c9c;
+            }
+            .xl{
+                font-size: 80px;
+                transition: .3s;
+            }
+            &:hover .xl{
+                color: #FFF;
+            }
+        }
+    }
+    @media (max-width: 1200px) {
+        display:none !important;
+    }
+}

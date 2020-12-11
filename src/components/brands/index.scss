@@ -1,0 +1,16 @@
+.brands{
+    .item{
+        margin: 10px;
+        cursor: pointer;
+        img{
+            width: 100%;
+            filter: invert(1);
+            transition: .3s;
+        }
+        &:hover{
+            img{
+                filter: unset;
+            }
+        }
+    }
+}

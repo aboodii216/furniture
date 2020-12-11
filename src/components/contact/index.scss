@@ -1,0 +1,108 @@
+.contact{
+    background: #0F0F12;
+    .sub{
+        background: #1F1F25;
+        padding-right: 40%;
+        h4{
+            font-weight: bold;
+            line-height: 1.6;
+        }
+        form{
+            input{
+                background: #2C2B32;
+                border: none;
+                height: 50px;
+                outline: none;
+                box-shadow: none;
+                border-left: 3px solid #FFF;
+            }
+            button{
+                width: 100%;
+                background: #000;
+                border: none;
+                font-size: 24px;
+                font-weight: bold;
+                letter-spacing: 3px;
+                outline: none;
+                height: 50px;
+                transition: .3s;
+                &:hover{
+                    background-color: #515159;
+                }
+            }
+        }
+    }
+    .our-contacts{
+        background-color: #0F0F12;
+        h3{
+            font-weight: bold;
+        }
+        span{
+            color: #9c9c9c;
+        }
+        ul{
+            li{
+                margin: 0 14px;
+                a{
+                    color: #FFF;
+                    font-size: 24px;
+                    transition: .3s;
+                }
+                &:hover{
+                    a{
+                        color: #9c9c9c !important;
+                    }
+                }
+            }
+        }
+    }
+    .get-in{
+        background-color: #2C2B32;
+        height: 100%;
+        h2{
+            @media(min-width: 1181px ){
+                font-size: 80px;
+            }
+            @media(max-width: 1180px ){
+                font-size: 60px;
+            }
+            @media(max-width: 576px){
+                font-size: 40px;
+            }
+        }
+        // span{
+
+        // }
+        input{
+            background: #2C2B32;
+            border: none;
+            height: 50px;
+            outline: none;
+            box-shadow: none;
+            border-bottom: 3px solid #999;
+        }
+        textarea{
+            height: 120px;
+            background: #2C2B32;
+            border: none;
+            outline: none;
+            box-shadow: none;
+            border-bottom: 3px solid #999;
+        }
+        button{
+            width: 40%;
+            background: transparent;
+            border: 1px solid #FFF;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 3px;
+            outline: none;
+            height: 50px;
+            transition: .3s;
+            &:hover{
+                background-color: #515159;
+                border: none;
+            }
+        }
+    }
+}

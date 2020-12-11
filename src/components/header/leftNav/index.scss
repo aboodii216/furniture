@@ -1,0 +1,50 @@
+.left-nav{
+    opacity: 1;
+    transition: .3s;
+    z-index: 2;
+    position: relative;
+    .brand{
+        position: relative;
+        .logo-img{
+            width: 80%;
+            img{
+                width: 100%;
+            }
+        }
+        .logo-text{
+            position: absolute;
+            white-space: nowrap;
+            transform-origin: 0;
+            bottom: 0;
+            left: 0;
+            transform: rotate(270deg) translate(-118%,36%);
+            letter-spacing: 2px;
+            font-size: 24px;
+            h5{
+                font-size: 18px;
+            }
+        }
+    }
+    
+    ul{
+        li{
+            padding: 10px 0;
+            cursor: pointer;
+            a{
+                color: #fff;
+                transition: .3s;
+            }
+            i{
+                transition: .3s;
+            }
+            &:hover{
+                a{
+                    color: rgb(212, 212, 212);                    
+                }
+            }
+        }
+    }
+    @media (max-width: 1200px) {
+        display: none !important;
+    }
+}
