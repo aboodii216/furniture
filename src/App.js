@@ -1,4 +1,10 @@
 import React, { useContext } from 'react'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import './App.scss';
 import Header from './components/header/Header';
 import SideMenu from './components/sideMenu/SideMenu';
@@ -35,8 +41,9 @@ function App() {
     }
   }
   return (
-    
-      <div className="App text-capitalize" style={theme}> 
+    <Router>
+      <Link to="/furniture">
+        <div className="App text-capitalize" style={theme}> 
         <TopMenuProvier>
           <TopNav />
           <SideMenuFromTop />
@@ -59,7 +66,13 @@ function App() {
           background : themeStyle.themee === "light" ?"#1F1F25": "white"
         }} />
       </div>
-    
+      </Link>
+      <Switch>
+        <Route path="/furniture">
+          <App />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

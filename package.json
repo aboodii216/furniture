@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/aboodii216/furniture",
+  "homepage": "http://aboodii216.github.io/furniture",
   "name": "darkk",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +16,7 @@
     "react-dark-mode-toggle": "0.0.10",
     "react-dom": "^17.0.1",
     "react-owl-carousel": "^2.3.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
     "react-scroll-to-top": "^1.0.5",
     "web-vitals": "^0.2.4"
